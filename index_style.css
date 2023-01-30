@@ -16,25 +16,31 @@ body {
   width: 1920px;
   height: 1080px;
   position: fixed;
-  opacity: 0.2;
+  opacity: 0.15;
 }
 
 .logo_text {
+  height: 150px;
+  width: 100%;
+  display: grid;
   position: fixed;
-  height: 200px;
-  width: 200px;
+  align-items: start;
 }
 
 .logo {
   width: 90px;
   height: 70px;
+  position: absolute;
+  padding-top: 15px;
 }
 
 .nf {
-  position: fixed;
+  position: relative;
   padding-top: 10px;
   font-weight: 300;
   letter-spacing: 0.1rem;
-  color: rgb(194, 192, 192);
+  color: white;
   font-family: "audiowide";
+  padding-top: 32px;
+  padding-left: 90px;
 }
