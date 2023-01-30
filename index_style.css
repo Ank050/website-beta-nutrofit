@@ -16,7 +16,7 @@ body {
   width: 1920px;
   height: 1080px;
   position: fixed;
-  opacity: 0.15;
+  opacity: 0.25;
 }
 
 .logo_text {
@@ -42,5 +42,27 @@ body {
   color: white;
   font-family: "audiowide";
   padding-top: 32px;
-  padding-left: 90px;
+  padding-left: 85px;
+}
+
+.img_text {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  position: fixed;
+  align-items: center;
+}
+
+.eximg {
+  position: absolute;
+  padding-top: 0px;
+  padding-left: 200px;
+}
+
+.text {
+  position: absolute;
+  font-weight: 300;
+  color: cyan;
+  font-family: "audiowide";
+  padding-left: 1000px;
 }
