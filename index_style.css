@@ -60,7 +60,7 @@ body {
 .text {
   position: absolute;
   font-weight: 350;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   font-family: "Roboto Mono";
   padding-left: 900px;
@@ -68,8 +68,21 @@ body {
 }
 
 .text p {
-  padding-top: 350px;
+  padding-top: 0px;
   align-items: center;
   width: 80%;
-  height: 100vh;
+  height: 60%;
+}
+
+.btn {
+  height: 75px;
+  width: 200px;
+  background-color: none;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 10px 10px 10px;
 }
