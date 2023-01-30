@@ -1,50 +1,40 @@
-.main {
-  height: 100vh;
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
 }
 
-.content {
-  position: absolute;
-  top: 30%;
-  left: 60%;
+.container {
+  width: 1920px;
+  height: 1080px;
+  position: fixed;
+}
+
+.bg {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  position: fixed;
+  opacity: 0.2;
 }
 
 .logo_text {
-  padding-top: 15px;
-  padding-left: 10px;
-  display: flex;
-  justify-content: left;
-  align-items: left;
+  position: fixed;
+  height: 200px;
+  width: 200px;
 }
+
 .logo {
   width: 90px;
   height: 70px;
 }
-.logo img {
-  width: 95%;
-  height: 82%;
-}
 
-.logo_text h1 {
+.nf {
+  position: fixed;
   padding-top: 10px;
   font-weight: 300;
   letter-spacing: 0.1rem;
   color: rgb(194, 192, 192);
   font-family: "audiowide";
-}
-
-.eximg {
-  height: 500px;
-  width: 500px;
-  object-fit: fill;
-  justify-content: left;
-  align-items: left;
-}
-
-.eximg img {
-  width: 100%;
-  height: 100%;
-}
-
-.bgimg img {
-  background-image: -moz-linear-gradient();
 }
