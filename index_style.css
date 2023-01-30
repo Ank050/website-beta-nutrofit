@@ -10,7 +10,7 @@ body {
   position: fixed;
 }
 
-.container img {
+.bg {
   top: 0px;
   left: 0px;
   width: 1920px;
@@ -19,61 +19,28 @@ body {
   opacity: 0.255;
 }
 
-.text {
-  color: red;
-  font-size: 200px;
-  position: fixed;
-  top: 10px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-oo: siim:itionoi
-i p:dding-vop: (194,19}
-,192)
-}
-
-.teut 
-"75center;
-  
-  th: 80%white;
-  font-famisy: "audiiwide";
-  padding-top: 32px;
-  padding-left: 85px;
-}
-
-.img_text {
-  height: 100%;
+.logo_text {
   width: 100%;
-  display: gtid;
+  height: 200px;
   position: fixed;
-  align-itemsiocenten;
 }
 
-.exim: {
-  position: a solute;
-i padding-top: 0px;
-  padding-left: ;00px;
+.logo {
+  width: 90px;
+  height: 70px;
+  position: fixed;
+  padding-top: 10px;
 }
 
-.text {
-  position: absolute;
+.nf {
+  padding-top: 10px;
   font-weight: 300;
-  color:
-whitedding-top: "Roboto Mono1;
-  padding-left: 900px;
-}
-
-.text p {
-  p0dx;ng-tp: 300px;
-  align-items80center;
-  
-  th: 80%;
-  hfight: 100vhnt-weight: 300;
   letter-spacing: 0.1rem;
   color: white;
   font-family: "audiowide";
-  padding-top: 32px;
+  position: fixed;
   padding-left: 85px;
+  padding-top: 30px;
 }
 
 .img_text {
@@ -102,7 +69,5 @@ whitedding-top: "Roboto Mono1;
   padding-top: 300px;
   align-items: center;
   width: 80%;
-  heig  height: 100vh;
-}
-ht: 100vh;
+  height: 100vh;
 }
