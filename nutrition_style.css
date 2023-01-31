@@ -70,8 +70,8 @@ body {
   text-align: center;
 }
 
-/* .head {
-  font-family: "Amatic SC", cursive;
-  font-size: 100px;
-  text-align: center;
-} */
+.image-container {
+  padding-top: 320px;
+  padding-left: 15px;
+  position: relative;
+}

@@ -21,16 +21,6 @@
   pointer-events: none;
 }
 
-.nf {
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  font-weight: 300;
-  letter-spacing: 0.1rem;
-  color: white;
-  font-family: "audiowide";
-}
-
 li,
 a,
 button {
@@ -112,35 +102,35 @@ button:hover {
   height: 500px;
   width: 750px;
   margin: auto;
-  border: 2px solid white;
 }
 
-.textoverlay {
+.img_overlay {
   position: absolute;
   height: 500px;
   width: 750px;
-  margin-left: 105px;
   background: rgba(0, 0, 0, 0.6);
   color: white;
   display: flex;
+  border: 2px solid white;
   font-family: "audiowide";
   flex-direction: column;
   align-items: center;
   justify-content: center;
   opacity: 0;
   transition: opacity 0.25s;
+  margin-left: 105px;
 }
 
-.textoverlay:hover {
+.img_overlay:hover {
   opacity: 1;
 }
 
-.texttitle {
+.img_title {
   font-size: 2em;
   font-weight: bold;
 }
 
-.textdesc {
+.img_desc {
   font-size: 1.25em;
   margin-top: 0.25em;
 }
