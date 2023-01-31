@@ -1,14 +1,20 @@
-* {
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: black;
-}
+} */
 
 .cont {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
 }
 
 .bgn {
@@ -17,12 +23,47 @@
   width: 100%;
   height: 125%;
   position: fixed;
-  opacity: 0.3;
+  opacity: 0.2;
   pointer-events: none;
 }
 
-/* .main {
-  width: 1920px;
-  height: 1080px;
+.logo_text {
+  width: 100%;
+  height: 200px;
   position: fixed;
+}
+
+.logo {
+  width: 90px;
+  height: 75px;
+  position: fixed;
+  padding-top: 15px;
+}
+
+.nf {
+  padding-top: 10px;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  color: white;
+  font-family: "audiowide";
+  position: fixed;
+  padding-left: 85px;
+  padding-top: 35px;
+}
+
+.text h1 {
+  font-family: "Amatic SC", cursive;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 80px;
+  color: white;
+  letter-spacing: 0.5rem;
+  color:#095256;
+  /*color: #466060; */
+}
+
+/* .head {
+  font-family: "Amatic SC", cursive;
+  font-size: 100px;
+  text-align: center;
 } */
