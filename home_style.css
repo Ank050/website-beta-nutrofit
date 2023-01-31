@@ -104,7 +104,7 @@ button:hover {
   margin: auto;
 }
 
-.img_overlay {
+.img1_overlay {
   position: absolute;
   height: 500px;
   width: 750px;
@@ -121,16 +121,47 @@ button:hover {
   margin-left: 105px;
 }
 
-.img_overlay:hover {
+.img1_overlay:hover {
   opacity: 1;
 }
 
-.img_title {
+.img1_title {
   font-size: 2em;
   font-weight: bold;
 }
 
-.img_desc {
+.img1_desc {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+
+.img2_overlay {
+  position: fixed;
+  height: 500px;
+  width: 750px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  border: 2px solid white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+  margin-left: 1065px;
+}
+
+.img2_overlay:hover {
+  opacity: 1;
+}
+
+.img2_title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.img2_desc {
   font-size: 1.25em;
   margin-top: 0.25em;
 }
