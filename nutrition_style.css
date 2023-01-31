@@ -75,3 +75,27 @@ body {
   padding-left: 15px;
   position: relative;
 }
+
+.img1text p {
+  padding-left: 120px;
+  padding-top: 20px;
+  color: white;
+  text-align: left;
+  font-family: "Amatic SC", cursive;
+  font-size: 30px;
+}
+
+.btn1 {
+  height: 50px;
+  width: 100px;
+  background-color: transparent;
+  border: 0.5px solid white;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto Mono";
+  margin: 10px 10px 0px 260px;
+}

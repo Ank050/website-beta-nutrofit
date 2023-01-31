@@ -24,9 +24,9 @@ body {
 li,
 a,
 button {
-  font-family: ;
+  font-family: "Roboto Mono";
   font-weight: 400;
-  font-size: 20px;
+  font-size: 21px;
   color: white;
   text-decoration: none;
 }
@@ -62,7 +62,7 @@ nav {
 }
 
 .nav_links li a {
-  transition: all 0.3s ease 0;
+  transition: color 0.3s;
 }
 
 .nav_links li a:hover {
@@ -79,7 +79,7 @@ button {
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  transition: all 0.3s ease 0;
+  transition: background 0.5s;
   color: black;
 }
 
@@ -119,7 +119,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.25s;
+  transition: opacity 0.75s;
   margin-left: 105px;
 }
 
@@ -150,7 +150,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.25s;
+  transition: opacity 0.75s;
   margin-left: 1065px;
 }
 
