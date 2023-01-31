@@ -57,6 +57,7 @@ body {
   padding-left: 80px;
   height: 500px;
   width: 800px;
+  filter: grayscale(70%);
 }
 
 .text {
