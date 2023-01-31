@@ -3,12 +3,14 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .cont {
   width: 100%;
   height: 100%;
-  position: fixed;
+  position: absolute;
 }
 
 .bg {
@@ -24,7 +26,7 @@ body {
 li,
 a,
 button {
-  font-family: "Roboto Mono";
+  font-family: "audiowide";
   font-weight: 400;
   font-size: 21px;
   color: white;
@@ -66,7 +68,7 @@ nav {
 }
 
 .nav_links li a:hover {
-  color: rgb(240, 128, 128);
+  color: rgb(255, 100, 100);
   text-decoration: none;
 }
 
@@ -79,12 +81,12 @@ button {
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  transition: background 0.5s;
+  transition: background 0.4s;
   color: black;
 }
 
 button:hover {
-  background-color: rgb(240, 128, 128);
+  background-color: rgb(255, 100, 100);
   outline-color: black;
   color: black;
 }
@@ -94,7 +96,8 @@ button:hover {
   height: 900px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: top;
+  position: relative;
 }
 
 .pics img {
@@ -102,7 +105,8 @@ button:hover {
   opacity: 1;
   height: 500px;
   width: 750px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .img1_overlay {
@@ -114,13 +118,13 @@ button:hover {
   color: white;
   display: flex;
   border: 2px solid white;
-  font-family: "audiowide";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   opacity: 0;
   transition: opacity 0.75s;
-  margin-left: 105px;
+  margin-left: 100px;
 }
 
 .img1_overlay:hover {
@@ -133,12 +137,12 @@ button:hover {
 }
 
 .img1_desc {
-  font-size: 1.25em;
+  font-size: 1.5em;
   margin-top: 0.25em;
 }
 
 .img2_overlay {
-  position: fixed;
+  position: absolute;
   height: 500px;
   width: 750px;
   background: rgba(0, 0, 0, 0.6);
@@ -150,8 +154,8 @@ button:hover {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity 0.75s;
-  margin-left: 1065px;
+  transition: opacity 0.5s;
+  margin-left: 1050px;
 }
 
 .img2_overlay:hover {
@@ -164,6 +168,25 @@ button:hover {
 }
 
 .img2_desc {
-  font-size: 1.25em;
+  font-size: 1.5em;
   margin-top: 0.25em;
+}
+
+.para {
+  width: 85%;
+  height: 400px;
+  position: relative;
+  font-size: 20px;
+  font-family: "Roboto Mono";
+  font-weight: 300;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  color: white;
+  margin-top: 150px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(255, 100, 100);
 }

@@ -76,7 +76,17 @@ body {
   position: relative;
 }
 
-.img1text p {
+.img1text,
+.img2text,
+.img3text {
+  height: 200px;
+  width: 625px;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alltext p {
   padding-left: 120px;
   padding-top: 20px;
   color: white;
@@ -85,17 +95,15 @@ body {
   font-size: 30px;
 }
 
-.btn1 {
+.alltext button {
   height: 50px;
-  width: 100px;
+  width: 150px;
   background-color: transparent;
   border: 0.5px solid white;
-  color: black;
+  color: white;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 12px;
   font-weight: 400;
   font-family: "Roboto Mono";
-  margin: 10px 10px 0px 260px;
+  margin: 10px 10px 0px 240px;
 }
