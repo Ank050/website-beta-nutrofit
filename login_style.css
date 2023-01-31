@@ -1,88 +1,95 @@
-@import url('https://fonts.googleapis.com/css?family=Numans');
-
-html,
+@import url("https://fonts.googleapis.com/css?family=Numans");
 body {
-    background-image:
-        url('https://wallpapercave.com/wp/MTdCz64.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    font-family: 'Numans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: black;
 }
 
 .container {
-    height: 100%;
-    align-content: center;
+  width: 1920px;
+  height: 1080px;
+  position: fixed;
+  align-content: center;
+}
+
+.bg {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  opacity: 0.2;
+  pointer-events: none;
 }
 
 .card {
-    height: 370px;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.5) !important;
+  height: 350px;
+  margin-top: 300px;
+  margin-bottom: 200px;
+  margin-left: 750px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .social_icon span {
-    font-size: 60px;
-    margin-left: 10px;
-    color: #ff4112;
+  font-size: 60px;
+  margin-left: 10px;
+  color: #ff4112;
 }
 
 .social_icon span:hover {
-    color: white;
-    cursor: pointer;
+  color: white;
+  cursor: pointer;
 }
 
 .card-header h3 {
-    color: white;
+  color: white;
 }
 
 .social_icon {
-    position: absolute;
-    right: 20px;
-    top: -45px;
+  position: absolute;
+  right: 20px;
+  top: -45px;
 }
 
 .input-group-prepend span {
-
-    width: 50px;
-    background-color: #ff3e12;
-    color: black;
-    border: 0 !important;
+  width: 50px;
+  background-color: #ff3e12;
+  color: black;
+  border: 0 !important;
 }
 
 input:focus {
-    outline: 0 0 0 0 !important;
-    box-shadow: 0 0 0 0 !important;
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
 }
 
 .remember {
-    color: white;
+  color: white;
 }
 
 .remember input {
-    width: 20px;
-    height: 20px;
-    margin-left: 15px;
-    margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
 }
 
 .login_btn {
-    color: black;
-    background-color: #FFC312;
-    width: 100px;
+  color: black;
+  background-color: #ffc312;
+  width: 100px;
 }
 
 .login_btn:hover {
-    color: black;
-    background-color: white;
+  color: black;
+  background-color: white;
 }
 
 .links {
-    color: white;
+  color: white;
 }
 
 .links a {
-    margin-left: 4px;
+  margin-left: 4px;
 }
