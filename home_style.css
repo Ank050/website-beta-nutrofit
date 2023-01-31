@@ -89,3 +89,8 @@ button:hover {
   outline-color: black;
   color: black;
 }
+
+.pics {
+  max-width:700px;
+  
+}
