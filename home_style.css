@@ -17,7 +17,7 @@
   width: 100%;
   height: 100%;
   position: fixed;
-  opacity: 0.15;
+  opacity: 0.2;
   pointer-events: none;
 }
 
@@ -45,8 +45,6 @@ header {
   cursor: pointer;
   padding-left: 10px;
   margin-right: auto;
-
-  opacity: 1;
 }
 
 nav {
@@ -91,6 +89,23 @@ button:hover {
 }
 
 .pics {
-  max-width:700px;
-  
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eximg {
+  opacity: 1;
+  height: 450px;
+  width: 650px;
+  margin: auto;
+}
+
+.nutimg {
+  opacity: 1;
+  height: 450px;
+  width: 650px;
+  margin: auto;
 }

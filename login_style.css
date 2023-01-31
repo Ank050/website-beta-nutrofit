@@ -28,23 +28,19 @@ body {
   margin-bottom: 200px;
   margin-left: 750px;
   width: 400px;
-  background-color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgba(0, 0, 0, 0.5);
 }
-
-
-
 
 .card-header h3 {
   color: white;
   padding-top: 15px;
 }
 
-
 .input-group-prepend span {
   width: 50px;
   background-color: #ff3e12;
   color: black;
-  border: 0 !important;
+  border: 0;
 }
 
 input:focus {
@@ -52,23 +48,12 @@ input:focus {
   box-shadow: 0 0 0 0 !important;
 }
 
-.remember {
-  color: white;
-  pad
-}
-
-.remember input {
-  width: 20px;
-  height: 20px;
-  margin-left: 15px;
-  margin-right: 5px;
-}
-
 .login_btn {
   color: black;
   background-color: #ffc312;
   width: 100px;
-  margin-left:0;
+  margin-right: 110px;
+  margin-top: 20px;
 }
 
 .login_btn:hover {
