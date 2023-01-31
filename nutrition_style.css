@@ -2,19 +2,13 @@ body {
   margin: 0;
   padding: 0;
   background: black;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
-
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  background-color: black;
-} */
-
 .cont {
   width: 100%;
   height: 100%;
-  position: fixed;
+  position: absolute;
 }
 
 .bgn {
@@ -70,8 +64,9 @@ body {
   font-family: "Amatic SC", cursive;
   padding-left: 150px;
   padding-right: 150px;
-  padding-top: 95px;
+  padding-top: 60px;
   letter-spacing: 0.1rem;
+  line-height: 2.4rem;
   text-align: center;
 }
 
