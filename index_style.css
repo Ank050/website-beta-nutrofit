@@ -17,6 +17,7 @@ body {
   height: 100%;
   position: fixed;
   opacity: 0.2;
+  pointer-events: none;
 }
 
 .logo_text {
