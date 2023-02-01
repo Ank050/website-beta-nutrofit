@@ -71,7 +71,7 @@ body {
 .bpartsimg1 img {
   border: 2px solid rgb(255, 100, 100);
   box-shadow: 5px white;
-  border-radius: 10%;
+  border-radius: 5%;
   opacity: 1;
   position: relative;
   opacity: 1;
@@ -81,7 +81,7 @@ body {
   margin-top: 0px;
   filter: contrast(1);
   transition: opacity 0.4s;
-  box-shadow: 5px 5px rgb(255, 100, 100);
+  box-shadow: 5px 5px rgb(255, 130, 130);
 }
 
 .bpartsimg1 img:hover {
@@ -98,7 +98,7 @@ body {
 
 .bpartsimg2 img {
   border: 2px solid rgb(255, 100, 100);
-  border-radius: 10%;
+  border-radius: 5%;
   opacity: 1;
   position: relative;
   opacity: 1;
@@ -106,7 +106,7 @@ body {
   width: 300px;
   margin: auto;
   transition: opacity 0.4s;
-  box-shadow: 5px 5px rgb(255, 100, 100);
+  box-shadow: 5px 5px rgb(255, 130, 130);
 }
 
 .bpartsimg2 img:hover {
