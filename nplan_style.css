@@ -5,10 +5,10 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
 }
-.container {
+.conta {
   width: 100%;
   height: 100%;
-  position: fixed;
+  position: absolute;
 }
 
 .bgn {
@@ -52,5 +52,58 @@ body {
   color: white;
   letter-spacing: 0.5rem;
   color: #095256;
-  position: fixed;
+  position: absolute;
+}
+
+.card {
+  height: 900px;
+  margin: auto;
+  margin-top: 200px;
+  width: 800px;
+  opacity: 0.45;
+  /*  background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.card-header h3 {
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #ff3e12;
+  color: black;
+  border: 0;
+  margin-top: 15px;
+}
+
+.form-control {
+  margin-top: 15px;
+}
+
+input:focus {
+  outline: 0 0 0 0;
+  box-shadow: 0 0 0 0;
+}
+
+.login_btn {
+  color: black;
+  background-color: #ffc312;
+  width: 100px;
+  margin-right: 110px;
+  margin-top: 20px;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.links {
+  color: white;
+}
+
+.links a {
+  margin-left: 4px;
 }
