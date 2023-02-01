@@ -8,7 +8,7 @@ body {
 .cont {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: relative;
 }
 
 .bgn {
@@ -46,7 +46,7 @@ body {
 }
 
 .introtext {
-  width: 85%;
+  width: 70%;
   height: auto;
   position: relative;
   font-size: 22px;
@@ -56,7 +56,7 @@ body {
   text-align: center;
   margin: auto;
   color: white;
-  margin-top: 120px;
+  margin-top: 150px;
   margin-bottom: 50px;
 }
 
@@ -65,36 +65,27 @@ body {
   height: auto;
   display: flex;
   position: relative;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 .bpartsimg1 img {
-  border: 7px solid rgb(255, 100, 100);
-  border-radius: 50%;
+  border: 2px solid rgb(255, 100, 100);
+  box-shadow: 5px white;
+  border-radius: 10%;
   opacity: 1;
   position: relative;
   opacity: 1;
   height: 300px;
-  width: 350px;
+  width: 300px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 0px;
   filter: contrast(1);
-  transition: opacity 0.5s;
+  transition: opacity 0.4s;
+  box-shadow: 5px 5px rgb(255, 100, 100);
 }
 
 .bpartsimg1 img:hover {
-  opacity: 0.7;
-}
-
-.bpartsimg1 p {
-  position: relative;
-  height: 300px;
-  width: 350px;
-  color: rgb(255, 100, 100);
-  font-size: 40px;
-  font-family: "audiowide";
-  font-weight: 400;
-  margin: auto;
+  opacity: 0.5;
 }
 
 .bpartsimg2 {
@@ -102,33 +93,41 @@ body {
   height: auto;
   display: flex;
   position: relative;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 .bpartsimg2 img {
-  border: 7px solid rgb(255, 100, 100);
-  border-radius: 50%;
+  border: 2px solid rgb(255, 100, 100);
+  border-radius: 10%;
   opacity: 1;
   position: relative;
   opacity: 1;
   height: 300px;
-  width: 350px;
+  width: 300px;
   margin: auto;
-  transition: opacity 0.5s;
+  transition: opacity 0.4s;
+  box-shadow: 5px 5px rgb(255, 100, 100);
 }
 
 .bpartsimg2 img:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
-.bpartsimg2 p {
-  position: relative;
-  height: 300px;
-  width: 350px;
-  color: rgb(255, 100, 100);
-  font-size: 40px;
-  font-family: "audiowide";
-  font-weight: 400;
+.link_text {
   margin: auto;
-  padding-left: 200px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.textaboveimg {
+  font-family: "audiowide";
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  margin: auto;
+  padding-left: 25px;
 }
