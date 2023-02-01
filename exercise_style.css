@@ -60,7 +60,7 @@ body {
   margin-bottom: 50px;
 }
 
-.bpartsimg {
+.bpartsimg1 {
   width: 100%;
   height: auto;
   display: flex;
@@ -68,18 +68,67 @@ body {
   margin-top: 100px;
 }
 
-.bpartsimg img {
-  border: 1px solid white;
+.bpartsimg1 img {
+  border: 7px solid rgb(255, 100, 100);
+  border-radius: 50%;
   opacity: 1;
   position: relative;
   opacity: 1;
   height: 300px;
   width: 350px;
   margin: auto;
-  filter: hue-rotate(100);
+  margin-top: 100px;
+  filter: contrast(1);
   transition: opacity 0.5s;
 }
 
-.bpartsimg img:hover {
+.bpartsimg1 img:hover {
   opacity: 0.7;
+}
+
+.bpartsimg1 p {
+  position: relative;
+  height: 300px;
+  width: 350px;
+  color: rgb(255, 100, 100);
+  font-size: 40px;
+  font-family: "audiowide";
+  font-weight: 400;
+  margin: auto;
+}
+
+.bpartsimg2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  margin-top: 100px;
+}
+
+.bpartsimg2 img {
+  border: 7px solid rgb(255, 100, 100);
+  border-radius: 50%;
+  opacity: 1;
+  position: relative;
+  opacity: 1;
+  height: 300px;
+  width: 350px;
+  margin: auto;
+  transition: opacity 0.5s;
+}
+
+.bpartsimg2 img:hover {
+  opacity: 0.7;
+}
+
+.bpartsimg2 p {
+  position: relative;
+  height: 300px;
+  width: 350px;
+  color: rgb(255, 100, 100);
+  font-size: 40px;
+  font-family: "audiowide";
+  font-weight: 400;
+  margin: auto;
+  padding-left: 200px;
 }
