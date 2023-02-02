@@ -8,7 +8,7 @@ body {
 .cont {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: relative;
 }
 
 .bgn {
@@ -23,14 +23,15 @@ body {
 
 .logo_text {
   width: 100%;
-  height: 200px;
-  position: fixed;
+  height: 100px;
+  position: relative;
+  display: flex;
 }
 
 .logo {
   width: 90px;
   height: 75px;
-  position: fixed;
+  position: relative;
   padding-top: 15px;
 }
 
@@ -40,7 +41,7 @@ body {
   letter-spacing: 0.1rem;
   color: white;
   font-family: "audiowide";
-  position: relative;
+  position: absolute;
   padding-left: 85px;
   padding-top: 35px;
 }
@@ -51,7 +52,7 @@ body {
   font-size: 40px;
   color: white;
   letter-spacing: 0.3rem;
-  margin: 150px 100px 0px 100px;
+  margin: 100px 100px 0px 100px;
 }
 
 .block1 p {
@@ -83,24 +84,21 @@ body {
   font-family: "Amatic SC", cursive;
   font-size: 30px;
   color: white;
-  text-align: left;
-  margin: auto;
-  margin-left: 40px;
 }
 
 .brea1 {
   position: relative;
-  width: 600px;
-  height: 700px;
+  width: 500px;
+  height: 600px;
   align-items: left;
-  margin: auto;
   margin-right: 30px;
-  margin-left: 20px;
-  margin-top: 30px;
+  margin-left: 40px;
+
   margin-bottom: 50px;
 }
 
 .block2 {
-  margin-top: 50px;
+  margin-right: 20px;
+  padding-top: 50px;
   display: flex;
 }
