@@ -87,6 +87,8 @@ body {
   font-family: "Amatic SC", cursive;
   color: white;
   font-size: 40px;
+  text-align: right;
+  margin-right: 20px;
 }
 
 .user_namei {
@@ -108,4 +110,12 @@ body {
 input {
   width: 70%;
   height: 60px;
+}
+
+.form-check {
+  padding-left: 15px;
+}
+
+input[type="radio"] {
+  accent-color: red;
 }

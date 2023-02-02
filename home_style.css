@@ -42,6 +42,21 @@ header {
   justify-content: flex-end;
 }
 
+.nf {
+  position: relative;
+  width: 10%;
+  margin-right: 650px;
+  margin-top: 5px;
+}
+
+.nf h1 {
+  padding-top: 10px;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  color: white;
+  font-family: "audiowide";
+}
+
 .logo {
   width: 100px;
   height: 60px;
@@ -60,7 +75,7 @@ nav {
 
 .nav_links li {
   display: inline-block;
-  padding: 0px 50px;
+  padding: 5px 50px;
 }
 
 .nav_links li a {
@@ -73,7 +88,7 @@ nav {
 }
 
 button {
-  padding: 9px 20px;
+  padding: 15px 20px;
   margin-top: 5px;
   margin-left: 20px;
   margin-right: 20px;
