@@ -73,13 +73,14 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   text-align: center;
+  margin-bottom: 60px;
 }
 
 .user_name {
   display: flex;
   align-items: center;
   text-align: center;
-  height: 300px;
+  height: 90px;
 }
 
 .user_name p {
@@ -105,5 +106,5 @@ body {
 
 input {
   width: 70%;
-  height: 50px;
+  height: 60px;
 }
