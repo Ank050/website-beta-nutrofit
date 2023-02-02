@@ -74,10 +74,6 @@ body {
   padding-right: 30px;
   text-align: center;
 }
-input {
-  width: 400px;
-  margin-left: 200px;
-}
 
 .user_name {
   display: flex;
@@ -89,13 +85,25 @@ input {
 .user_name p {
   font-family: "Amatic SC", cursive;
   color: white;
-  font-size: 30px;
-  margin-left: 100px;
-  margin: auto;
+  font-size: 40px;
 }
 
-#uname {
-  height: 15%;
-  width: 30%;
-  margin-right: 100px;
+.user_namei {
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+
+.user_namet {
+  width: 50%;
+  position: relative;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+
+input {
+  width: 70%;
+  height: 50px;
 }
