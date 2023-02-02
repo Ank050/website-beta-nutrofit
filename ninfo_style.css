@@ -52,7 +52,7 @@ body {
   font-size: 40px;
   color: white;
   letter-spacing: 0.3rem;
-  margin: 50x100px 100px;
+  margin: 50px 100px 100px;
 }
 
 .block1 p {
@@ -107,7 +107,6 @@ body {
   font-size: 30px;
   color: white;
   text-align: left;
-  margin: auto;
   margin-left: 40px;
 }
 
@@ -116,157 +115,33 @@ body {
   width: 550px;
   height: 400px;
   align-items: right;
-  margin: auto;
   margin-right: 30px;
   margin-left: 20px;
-  margin-top: 30px;
 }
 
 .block3 {
   display: flex;
-}
-
-.block3 p {
-  font-family: "Amatic SC", cursive;
-  font-size: 30px;
-  color: white;
-  text-align: top;
-  margin: auto;
-  margin-left: 40px;
-}
-
-.brea2 {
-  position: relative;
-  width: 550px;
-  height: 400px;
-  align-items: right;
-  margin: auto;
-  margin-right: 30px;
-  margin-left: 20px;
   margin-top: 30px;
 }
 
-.block3 {
-  display: flex;
-}
-
-.block3 p {
+.block4 p {
   font-family: "Amatic SC", cursive;
   font-size: 30px;
   color: white;
-  text-align: top;
-  margin: auto;
-  margin-left: 40px;
 }
 
 .brea2 {
   position: relative;
-  width: 550px;
-  height: 400px;
-  align-items: right;
-  margin: auto;
+  width: 500px;
+  height: 555px;
+  align-items: left;
   margin-right: 30px;
-  margin-left: 20px;
-  margin-top: 30px;
-}
-
-.block3 {
-  display: flex;
-}
-
-.block3 p {
-  font-family: "Amatic SC", cursive;
-  font-size: 30px;
-  color: white;
-  text-align: left;
-  margin: auto;
   margin-left: 40px;
+  margin-bottom: 50px;
 }
 
-.brea2 {
-  position: relative;
-  width: 550px;
-  height: 400px;
-  align-items: right;
-  margin: auto;
-  margin-right: 30px;
-  margin-left: 20px;
-  margin-top: 30px;
-}
-
-.block3 {
-  display: flex;
-  align-items: top;
-}
-
-.block3 p {
-  font-family: "Amatic SC", cursive;
-  font-size: 30px;
-  color: white;
-  text-align: left;
-  margin: auto;
-  margin-left: 40px;
-}
-
-.brea2 {
-  position: relative;
-  width: 550px;
-  height: 400px;
-  align-items: right;
-  margin: auto;
-  margin-right: 30px;
-  margin-left: 20px;
-  margin-top: 30px;
-}
-
-.block3 {
-  display: flex;
-}
-
-.block3 p {
-  font-family: "Amatic SC", cursive;
-  font-size: 30px;
-  color: white;
-  text-align: left;
-  margin: auto;
-  margin-left: 40px;
-}
-
-.brea2 {
-  position: relative;
-  width: 550px;
-  height: 400px;
-  align-items: right;
-  margin: auto;
-  margin-right: 30px;
-  margin-left: 20px;
-  margin-top: 30px;
-}
-
-.block3 {
-  display: flex;
-}
-
-.block3 p {
-  font-family: "Amatic SC", cursive;
-  font-size: 30px;
-  color: white;
-  text-align: left;
-  margin: auto;
-  margin-left: 40px;
-}
-
-.brea2 {
-  position: relative;
-  width: 550px;
-  height: 400px;
-  align-items: right;
-  margin: auto;
-  margin-right: 30px;
-  margin-left: 20px;
-  margin-top: 30px ;
-}
-
-.block3 {
+.block4 {
+  margin-right: 20px;
+  padding-top: 50px;
   display: flex;
 }
