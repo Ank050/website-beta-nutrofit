@@ -70,7 +70,7 @@ body {
   position: relative;
   font-size: 22px;
   font-family: "Roboto Mono";
-  font-weight: 400;
+  font-weight: 300;
   align-items: center;
   text-align: center;
   margin: auto;
@@ -90,7 +90,7 @@ body {
 .bpartsimg1 img {
   border: 2px solid white;
   box-shadow: 5px white;
-  border-radius: 50%;
+  border-radius: 2%;
   opacity: 1;
   position: relative;
   opacity: 1;
@@ -116,7 +116,7 @@ body {
 
 .bpartsimg2 img {
   border: 2px solid white;
-  border-radius: 50%;
+  border-radius: 2%;
   opacity: 1;
   position: relative;
   opacity: 1;
