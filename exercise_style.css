@@ -88,14 +88,14 @@ body {
 }
 
 .bpartsimg1 img {
-  border: 2px solid white;
+  border: 3px solid rgb(255, 80, 80);
   box-shadow: 5px white;
   border-radius: 2%;
   opacity: 1;
   position: relative;
   opacity: 1;
   height: 300px;
-  width: 300px;
+  width: 320px;
   margin: auto;
   margin-top: 0px;
   filter: contrast(1);
