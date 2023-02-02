@@ -95,15 +95,16 @@ body {
   position: relative;
   opacity: 1;
   height: 300px;
-  width: 320px;
+  width: 340px;
   margin: auto;
   margin-top: 0px;
   filter: contrast(1);
   transition: opacity 0.4s;
+  transition: transform 250ms;
 }
 
 .bpartsimg1 img:hover {
-  opacity: 0.7;
+  transform: translateY(-10px);
 }
 
 .bpartsimg2 {
@@ -122,15 +123,16 @@ body {
   position: relative;
   opacity: 1;
   height: 300px;
-  width: 320px;
+  width: 340px;
   margin: auto;
   margin-top: 0px;
   filter: contrast(1);
   transition: opacity 0.4s;
+  transition: transform 250ms;
 }
 
 .bpartsimg2 img:hover {
-  opacity: 0.7;
+  transform: translateY(-10px);
 }
 
 .link_text {
@@ -148,7 +150,7 @@ body {
   font-family: "audiowide";
   font-size: 35px;
   font-weight: 400;
-  color: rgb(255, 80, 80);
+  color: white;
   margin: auto;
   margin-left: 270px;
 }
