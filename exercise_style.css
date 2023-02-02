@@ -88,7 +88,7 @@ body {
 }
 
 .bpartsimg1 img {
-  border: 3px solid rgb(255, 80, 80);
+  border: 3px solid white;
   box-shadow: 5px white;
   border-radius: 2%;
   opacity: 1;
@@ -116,7 +116,7 @@ body {
 }
 
 .bpartsimg2 img {
-  border: 3px solid rgb(255, 80, 80);
+  border: 3px solid white;
   box-shadow: 5px white;
   border-radius: 2%;
   opacity: 1;
