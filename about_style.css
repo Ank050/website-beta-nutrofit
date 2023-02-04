@@ -57,24 +57,26 @@ body {
 }
 
 .inner-container {
+  box-shadow: 10px 10px 10px 10px rgb(150, 150, 150);
   margin: auto;
   width: 45%;
   float: right;
   background-color: rgba(255, 255, 255, 01);
   padding: 130px;
+  transition: transform 1s;
 }
 
 .inner-container h1 {
   font-family: "audiowide";
   color: rgba(255, 100, 100, 1);
   margin-bottom: 3px;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 900;
 }
 
 .text {
   font-family: "Roboto Mono";
-  font-size: 13px;
+  font-size: 15px;
   color: black;
   line-height: 30px;
   text-align: justify;
@@ -85,7 +87,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Roboto mono";
   color: rgba(255, 100, 100, 1);
 }
@@ -115,4 +117,10 @@ body {
   .inner-container {
     padding: 60px;
   }
+}
+
+.inner-container:hover {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
 }
