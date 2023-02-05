@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  padding: 0;
+
   background: black;
 }
 
 .cont {
-  width: 1920px;
-  height: 1080px;
+  width: auto;
+  height: auto;
   position: relative;
 }
 
@@ -90,7 +90,7 @@ body {
   text-decoration: none;
   display: inline-block;
   font-size: 22px;
-  font-weight: 4  00;
+  font-weight: 4 00;
   font-family: "Roboto Mono";
   transition: transform 0.6s;
 }

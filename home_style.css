@@ -8,8 +8,8 @@ body {
 }
 
 .cont {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   position: absolute;
 }
 
@@ -39,14 +39,17 @@ header {
   width: 100%;
   height: 100px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.logotext {
+  display: flex;
 }
 
 .nf {
   position: relative;
-  width: 10%;
-  margin-right: 650px;
-  margin-top: 5px;
+  width: auto;
+  margin-top: 7px;
 }
 
 .nf h1 {
@@ -62,18 +65,16 @@ header {
   height: 60px;
   cursor: pointer;
   padding-left: 10px;
-  margin-right: auto;
-}
-
-nav {
-  padding-top: 15px;
 }
 
 .nav_links {
+  display: flex;
+  justify-content: space-around;
   list-style: none;
 }
 
 .nav_links li {
+  margin-top: 15px;
   display: inline-block;
   padding: 5px 50px;
 }
@@ -87,11 +88,18 @@ nav {
   text-decoration: none;
 }
 
+.allbuts {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: top;
+}
+
 button {
   padding: 15px 20px;
-  margin-top: 5px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: 4px;
   background-color: rgb(255, 255, 255);
   border: none;
   border-radius: 50px;
@@ -107,8 +115,11 @@ button:hover {
 }
 
 .pics {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   width: 100%;
-  height: 900px;
+  height: 600px;
   display: flex;
   justify-content: space-between;
   align-items: top;
@@ -139,7 +150,7 @@ button:hover {
   justify-content: center;
   opacity: 0;
   transition: opacity 0.75s;
-  margin-left: 100px;
+  margin-left: 102px;
 }
 
 .img1_overlay:hover {
@@ -170,7 +181,7 @@ button:hover {
   justify-content: center;
   opacity: 0;
   transition: opacity 0.5s;
-  margin-left: 1050px;
+  margin-left: 1052px;
 }
 
 .img2_overlay:hover {
@@ -193,13 +204,12 @@ button:hover {
   position: relative;
   font-size: 20px;
   font-family: "Roboto Mono";
-  font-weight: 300;
+  font-weight: 400;
   align-items: center;
   text-align: center;
   margin: auto;
   color: white;
   margin-top: 150px;
-  letter-spacing: 1px;
 }
 
 .A {
@@ -214,4 +224,13 @@ A:hover {
   text-decoration: none;
   color: rgb(255, 100, 100);
   text-shadow: 10px;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
