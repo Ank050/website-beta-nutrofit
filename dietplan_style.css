@@ -47,10 +47,11 @@ body {
 .text h1 {
   font-family: "Amatic SC", cursive;
   text-align: center;
-  font-size: 85px;
+  font-size: 80px;
   color: white;
   letter-spacing: 0.5rem;
-  color: #095256;
+  color: white;
+  /*color: #095256; */
   position: absolute;
-  margin-left: 200px;
+  padding-left: 200px;
 }
