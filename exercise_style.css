@@ -89,7 +89,7 @@ body {
 }
 
 .bpartsimg1 {
-  animation: fadeInAnimation ease 3s;
+  animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   width: 100%;
@@ -102,7 +102,7 @@ body {
 }
 
 .bpartsimg1 img {
-  border: 3px solid white;
+  border: 3px solid rgb(255, 100, 100);
   box-shadow: 5px white;
   border-radius: 4%;
   opacity: 1;
@@ -134,7 +134,7 @@ body {
 }
 
 .bpartsimg2 img {
-  border: 3px solid white;
+  border: 3px solid rgb(255, 100, 100);
   box-shadow: 5px white;
   border-radius: 4%;
   opacity: 1;
