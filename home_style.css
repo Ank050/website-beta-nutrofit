@@ -8,16 +8,16 @@ body {
 }
 
 .conta {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   position: relative;
 }
 
 .bg {
   top: 0;
   left: 0;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   position: fixed;
   opacity: 0.3;
   pointer-events: none;
@@ -26,6 +26,7 @@ body {
 li,
 a,
 button {
+  position: relative;
   font-family: "audiowide";
   font-weight: 400;
   font-size: 21px;
@@ -68,22 +69,30 @@ header {
 }
 
 .nav_links {
+  position: relative;
   display: flex;
   justify-content: space-around;
   list-style: none;
+  transition: transform 0.4s;
 }
 
 .nav_links li {
+  position: relative;
   margin-top: 15px;
   display: inline-block;
   padding: 5px 50px;
+  transition: transform 0.4s;
 }
 
 .nav_links li a {
   transition: color 0.3s;
+  transition: transform 0.4s;
 }
 
 .nav_links li a:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
   color: rgb(255, 100, 100);
   text-decoration: none;
 }
@@ -104,14 +113,17 @@ button {
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  transition: background 0.4s;
   color: black;
+  transition: transform 0.4s;
 }
 
 button:hover {
   background-color: rgb(255, 100, 100);
   outline-color: black;
   color: black;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .para {
@@ -154,7 +166,6 @@ button:hover {
   opacity: 1;
   position: relative;
   margin-left: 10%;
-
   height: 95%;
   width: 80%;
   transition: opacity 0.4s;
@@ -212,9 +223,7 @@ button:hover {
   }
   .para {
     font-size: 13px;
-    margin-top: 20%;
     position: relative;
-    margin-bottom: 10%;
   }
   .nav_links li {
     position: relative;
@@ -231,6 +240,7 @@ button:hover {
   button {
     padding: 7px 10px;
     font-size: 15px;
+    margin-top: 25px;
   }
 }
 
