@@ -72,3 +72,29 @@ body {
   margin: 160px 0px 20px 190px;
   padding-bottom: 40px;
 }
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+  margin-top: 620px;
+  margin-left: 100px;
+  border-width: 20px 30px 20px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+}
+
+#arrow-right {
+  margin-top: 640px;
+  margin-right: 100px;
+  border-width: 20px 0 20px 30px;
+  border-color: transparent transparent transparent #fff;
+  right: 0;
+}
