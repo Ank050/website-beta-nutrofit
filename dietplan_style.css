@@ -55,3 +55,20 @@ body {
   position: absolute;
   padding-left: 200px;
 }
+
+[data-component="slideshow"] .slide {
+  display: none;
+}
+
+[data-component="slideshow"] .slide.active {
+  display: block;
+}
+
+.slideimg {
+  width: 80%;
+  position: absolute;
+  height: 890px;
+  margin: auto;
+  margin: 160px 0px 20px 190px;
+  padding-bottom: 40px;
+}
