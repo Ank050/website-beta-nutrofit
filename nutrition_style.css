@@ -54,7 +54,7 @@ body {
 }
 
 .text p {
-  position: absolute;
+  position: relative;
   font-weight: 390;
   font-size: 35px;
   color: white;
@@ -67,45 +67,44 @@ body {
   text-align: center;
 }
 
-.image-container {
-  padding-top: 320px;
-  padding-left: 7px;
+.con {
   position: relative;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-.img1text,
-.img2text,
-.img3text {
-  height: 200px;
-  width: 625px;
-  display: inline-block;
-  justify-content: space-between;
+.items {
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-.alltext p {
-  padding-left: 120px;
-  padding-top: 20px;
+.items img {
+  margin: auto;
+  width: 95%;
+}
+
+.items p {
+  position: relative;
+  width: 60%;
+  margin-top: 20px;
+  font-weight: 390;
+  font-size: 35px;
   color: white;
-  text-align: left;
   font-family: "Amatic SC", cursive;
-  font-size: 30px;
-}
-
-.alltext button {
-  height: 50px;
-  width: 150px;
-  background-color: transparent;
-  border: 0.5px solid white;
-  color: white;
+  letter-spacing: 0.1rem;
+  line-height: 2.4rem;
   text-align: center;
-  font-size: 12px;
-  font-weight: 400;
-  font-family: "Roboto Mono";
-  margin: 10px 10px 0px 240px;
 }
 
-.alltext button:hover {
-  color: black;
-  background-color: white;
+.items button {
+  width: 120px;
+  height: 40px;
+  border-color: white;
+  font-family: "Amatic SC";
+  font-size: 20px;
+  position: relative;
+  align-items: center;
 }
