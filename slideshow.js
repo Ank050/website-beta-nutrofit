@@ -9,7 +9,6 @@ function reset() {
     sliderImages[i].style.display = "none";
   }
 }
-
 // Initial slide
 function startSlide() {
   reset();
