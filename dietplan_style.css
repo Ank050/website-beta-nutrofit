@@ -65,12 +65,12 @@ body {
 }
 
 .slideimg {
-  width: 80%;
+  width: 30%;
   position: absolute;
-  height: 890px;
+  height: 800px;
   margin: auto;
-  margin: 160px 0px 20px 190px;
-  padding-bottom: 40px;
+  margin: 200px 200px 20px 650px;
+  margin-bottom: 100px;
 }
 
 .arrow {
@@ -84,16 +84,16 @@ body {
 }
 
 #arrow-left {
-  margin-top: 620px;
-  margin-left: 100px;
+  margin-top: 700px;
+  margin-left: 400px;
   border-width: 20px 30px 20px 0;
   border-color: transparent #fff transparent transparent;
   left: 0;
 }
 
 #arrow-right {
-  margin-top: 640px;
-  margin-right: 100px;
+  margin-top: 700px;
+  margin-right: 400px;
   border-width: 20px 0 20px 30px;
   border-color: transparent transparent transparent #fff;
   right: 0;
