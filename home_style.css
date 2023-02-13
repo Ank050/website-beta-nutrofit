@@ -127,17 +127,18 @@ button:hover {
 }
 
 .para {
-  width: 75%;
+  width: 83%;
   height: 400px;
   position: relative;
-  font-size: 20px;
+  font-size: 23px;
   font-family: "Roboto Mono";
-  font-weight: 400;
+  font-weight: 300;
   align-items: center;
   text-align: center;
   margin: auto;
   color: white;
   margin-top: 150px;
+  margin-bottom: 40px;
 }
 
 .imgtext {
@@ -170,6 +171,8 @@ button:hover {
   width: 80%;
   transition: opacity 0.4s;
   transition: transform 0.4s;
+  margin-top: 6%;
+  margin-bottom: 8%;
 }
 
 .link_text {
@@ -198,6 +201,19 @@ button:hover {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
+}
+
+.infotext {
+  width: 85%;
+  height: 400px;
+  position: relative;
+  font-size: 19px;
+  font-family: "Roboto Mono";
+  font-weight: 300;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  color: white;
 }
 
 @media screen and (max-width: 1100px) {
