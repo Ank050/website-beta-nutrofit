@@ -46,99 +46,12 @@ body {
 
 .text h1 {
   font-family: "Amatic SC", cursive;
-  padding-left: 500px;
-  padding-top: 25px;
-  font-size: 85px;
+  margin-top: 120px;
+  margin-left: 230px;
+  font-size: 75px;
   color: white;
+  text-align: center;
   letter-spacing: 0.5rem;
-  color: #095256;
+  color: white;
   position: absolute;
-}
-
-.card {
-  height: 870px;
-  background-color: transparent;
-  border-color: white;
-  margin-left: 500px;
-  margin-top: 200px;
-  margin-bottom: 75px;
-  width: 850px;
-}
-
-.card h3 {
-  font-family: "Amatic SC", cursive;
-  font-size: 42px;
-  color: white;
-  padding-top: 40px;
-  padding-left: 30px;
-  padding-right: 30px;
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.user_name {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  height: 90px;
-}
-
-.user_name p {
-  font-family: "Amatic SC", cursive;
-  color: white;
-  font-size: 40px;
-  text-align: right;
-  padding-right: 20px;
-}
-
-.user_namei {
-  position: relative;
-  display: flex;
-  margin: auto;
-  width: 50%;
-}
-
-.user_namet {
-  width: 50%;
-  position: relative;
-  margin: auto;
-  align-items: center;
-  padding-top: 10px;
-  text-align: center;
-  padding-left: 40px;
-}
-
-input {
-  width: 70%;
-  height: 60px;
-}
-
-.form-check {
-  padding-left: 15px;
-}
-
-input[type="radio"] {
-  accent-color: red;
-}
-
-.login {
-  margin-left: 170px;
-}
-
-.login_btn {
-  width: 180px;
-  height: 75px;
-  color: white;
-  border-color: white;
-  font-family: "Amatic SC", cursive;
-  font-size: 40px;
-  position: relative;
-  align-items: center;
-  margin-left: 150px;
-  margin-top: 50px;
-}
-
-.login_btn:hover {
-  background-color: white;
-  color: black;
 }
