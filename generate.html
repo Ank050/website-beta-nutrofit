@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@300&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <!--STYLESHEET-->
+    <link rel="stylesheet" href="generate_style.css">
+    <title>Custom Plan</title>
+</head>+
+<body>
+    <div class="conta">
+            <img class="bgn" src="BG7.jpg">
+            <div class="logo_text">
+              <img class = "logo" src="logo_i.png">
+              <div class="nf">
+                    <h1>NutroFit</h1>
+              </div>
+            </div>
+            <div class="content">
+                <div class="text">
+                    <h1>
+                        meal plans curated for you
+                    </h1>
+                </div>  
+                <div class="d-flex h-100">
+            <form action="generate.php" method="post">  
+            <div class="card">
+                    <h3>Enter your details and we'll generate a meal plan especially curated for you !</h3>
+                    <!-- USERNAME-->
+                    <div class="user_name">
+                        <div class="user_namet">
+                            <p>ENTER YOUR USERNAME :</p>
+                        </div>
+                        <div class="user_namei">
+                            <input type="text" style="background-color:transparent ; color:white; border-color:white; font-family:Amatic SC, cursive; font-size:35px;padding-left:15px" placeholder="Enter Username" name="uname" id="uname" required>
+                        </div>
+                    </div>
+                    <!-- AGE-->
+                    <div class="user_name">
+                        <div class="user_namet">
+                            <p>ENTER YOUR AGE :</p>
+                        </div>
+                        <div class="user_namei">
+                            <input type="text" style="background-color:transparent ; color:white; border-color:white; font-family:Amatic SC, cursive; font-size:35px; width:150px;padding-left:15px" placeholder="Enter Age" name="ages" id="ages" required>
+                        </div>
+                    </div>
+                    <!-- GENDER-->
+                    <div class="user_name">
+                        <div class="user_namet">
+                            <p>SELECT GENDER :</p>
+                        </div>
+                        <div class="user_namei">
+                            <div class="form-check form-check-inline">
+                                <input type="radio" style=" padding-left:30px " name="gender" id="gender1" value="option1" required>
+                                <label for="gender1" style="font-size:30px; font-family:Amatic SC, cursive; color:white; padding-left:15px; padding-top:10px">MALE</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio"  style=" padding-left:30px " name="gender" id="gender2" value="option2">
+                                <label for="gender2" style="font-size:30px; font-family:Amatic SC, cursive; color:white; padding-left:15px; padding-top:10px">FEMALE</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- HEIGHT-->
+                    <div class="user_name">
+                        <div class="user_namet">
+                            <p>ENTER YOUR HEIGHT (in cms):</p>
+                        </div>
+                        <div class="user_namei">
+                            <input type="text" style="background-color:transparent ; color:white; border-color:white; font-family:Amatic SC, cursive; font-size:35px; width:200px;padding-left:15px" placeholder="Enter Height" name="heights" id="heights" required>
+                        </div>
+                    </div>
+                    <!-- WEIGHT-->
+                    <div class="user_name">
+                        <div class="user_namet">
+                            <p>ENTER YOUR WEIGHT (in kgs) :</p>
+                        </div>
+                        <div class="user_namei">
+                            <input type="text" style="background-color:transparent ; color:white; border-color:white; font-family:Amatic SC, cursive; font-size:35px; width:200px;padding-left:15px" placeholder="Enter Weight" name="weights" id="weights" required>
+                        </div>
+                    </div>
+                    <!--SUBMIT BUTTON-->
+                    <div class="login">
+                        <input type="submit" value="SUBMIT" class="btn login_btn">
+                    </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

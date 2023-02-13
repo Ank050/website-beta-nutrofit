@@ -16,7 +16,7 @@ body {
   }
 }
 
-.conta {
+.cont {
   width: auto;
   height: auto;
   position: relative;
@@ -53,6 +53,7 @@ header {
 
 .allbuts a {
   text-decoration: none;
+  color: white;
 }
 
 .logotext {
