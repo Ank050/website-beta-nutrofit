@@ -1,12 +1,12 @@
 body {
   box-sizing: border-box;
-  box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;-color
-  padding: 0-color;
+  margin: 0;
+  padding: 0;
   background-color: black;
   overflow-x: hidden;
- overflow-y: auto;
+  overflow-y: auto;
+}
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
@@ -16,163 +16,34 @@ body {
   }
 }
 
+.cont {
+  width: auto;
+  height: auto;
+  position: relative;
 }
 
-a@keyframes fadeIAnima
-  opacity: 1;
-  }
-}
-
-.con100%100%ion {
-  0% {
-    reiayiv:@0;
-  }
-  10% keyframes 5fadeInAnimation {
- 
-
-button,
-li { 0% {
-  position: relative;    reiayiv: 0;
-  font-fami  }
-y: "audiowide";
-  f nt-wei position: relative;
-  mar1in-top:020px;
-  ht: 400;
-  fgn%-siz
-: 21p
-;
-  color: whi e; {
-  text-decoration: none;
-}
-
-header   opacity: 1;
- 0}
-}
-;
-  justify-content: space-between
-.aclbut10a 0%100%width: auto;5
-  text-aechrighont:noneo;
-  color:w
-ito;
-}
-
-.lbouext {
-4  displaytofl
-m
-}
-
-.nf {irg psition: relative;
-  po7;sition: relative;}
-  width: auto  f h1ont-fami
-y: "audiowide";
-  f.nt-weibposition: relative;
-  margin-top: 20px;
-  ht: 400;
-  fgn{-siz: 2
-
-.logo {1p
-;
-  width: 100px;  c  heigot: 60px;
-  cursor: point;
-lr}
-odring-left: 10px;
-}
-
-.nav_links {
-  p
-dishley: flex;
-  justify-content: spac:-arouna;
-  list-style: none;
-  t ansition:wtransform 0.4s;
-}
-
-.nav_links li {
-  positeor: relative;
-  mar inhi e;
-  top:e15px;
-x distlay: inline-bl
-ck;
-  padding: 5px 50 x;
-  transition  transformp0.4s;
-}
-
-.nav_links li a {
-  transition: c-lor 0.od;
-  transecorat transform 0.4s;
-}
-
-.nav_linksili a:hoveo {
-  -wnbkit-transform: sca:e(1.1);
-  -ms-tr nsform: scale(1.1);
-  nransform: scale(1.1);
-  color: rgb(25s, 100, 100);
-  tett-decoration: noneoon: relatine;
-}
-
-header top: 0;
- 0left: 0;
-  justify-content: space-between;
+.bg {
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
- a lbutsia tion: fixed;
-  text-aecoraciontynone25;
-  color: wpito;
+  position: fixed;
+  opacity: 0.5;
+  pointer-events: none;
 }
 
-.lonotexe {
-4  5ispl4yr-flent
-}
-
-.nf {s ;
-  margin-bottom::50px none;
-}
-
-murgon
-li {7;
-  width: auto  p h1osition: relative;
+button,
+li {
+  position: relative;
   font-family: "audiowide";
   font-weight: 400;
   font-size: 21px;
   color: white;
   text-decoration: none;
-;
 }
 
-.logo {
-  width: 100px;
-  height: 60px;
-  cursor: pointer}
-adding-left: 10px;
-}
-
-.nav_links {
-  p
-dishley: flex;
-  justify-content: space-arouna;
-  list-style: none;
-  transition: transform 0.4s;
-}
-
-.nav_links li {
-  positeor: relative;
-  mar in{op: 15px;
-  display: inline-bl
-ck;
-  padding: 5px 50 x;
-  transition  transformp0.4s;
-}
-
-.nav_links li a {
-  transition: color 0.os;
-  transition: transform 0.4s;
-}
-
-.nav_links li a:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  color: rgb(25s, 100, 100);
-  tett-decoration: noneion: relative;
+header {
+  position: relative;
   margin-top: 20px;
   width: 100%;
   height: 100px;
@@ -185,11 +56,11 @@ ck;
   color: white;
 }
 
-.logotext {5  di5play: flex;
+.logotext {
+  display: flex;
 }
 
-.nf ;
-  margin-bottom: 50px{
+.nf {
   position: relative;
   width: auto;
   margin-top: 7px;
@@ -253,7 +124,6 @@ ck;
   margin-top: 50px;
   letter-spacing: 0.5rem;
   color: rgb(255, 100, 100);
-  margin-bottom: 50px;
 }
 
 .text p {
