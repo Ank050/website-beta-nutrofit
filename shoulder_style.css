@@ -51,6 +51,11 @@ header {
   justify-content: space-between;
 }
 
+.allbuts {
+  width: 50%;
+  justify-content: space-between;
+}
+
 .allbuts a {
   text-decoration: none;
   color: white;
@@ -93,7 +98,6 @@ header {
   position: relative;
   margin-top: 15px;
   display: inline-block;
-  padding: 5px 50px;
   transition: transform 0.4s;
 }
 
@@ -131,8 +135,8 @@ header {
   width: 80%;
   height: auto;
   margin: auto;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
+  margin-top: 100px;
   height: 600px;
   background: rgba(0, 0, 0, 0.6);
   display: flex;
@@ -201,7 +205,35 @@ header {
 
   .block {
     display: flex;
+    width: 90%;
     flex-direction: column;
     margin-top: 100px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .allbuts {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  li {
+    font-size: 13px;
+  }
+
+  .nf h1 {
+    font-size: 30px;
+  }
+
+  .info {
+    width: 85%;
+  }
+
+  .text {
+    margin-top: 80px;
   }
 }
