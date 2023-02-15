@@ -114,6 +114,11 @@ header {
   text-decoration: none;
 }
 
+li:nth-child(2) {
+  /*text-decoration: underline rgb(255, 100, 100) 3px;*/
+  border-bottom: 3px rgb(255, 100, 100) solid;
+}
+
 .text {
   width: 100%;
   height: auto;
@@ -236,4 +241,24 @@ header {
   .text {
     margin-top: 80px;
   }
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 100, 100, 1);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: gray;
 }
