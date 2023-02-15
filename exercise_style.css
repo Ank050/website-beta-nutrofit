@@ -248,6 +248,27 @@ li:nth-child(2) {
   .exhead h1 {
     font-size: 50px;
   }
+
+  .head {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav {
+    flex: auto;
+    flex-direction: column;
+  }
+  .nav_links li {
+    position: relative;
+    padding: 10px;
+  }
+  .li,
+  a {
+    font-family: "audiowide";
+    font-weight: 400;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+  }
 }
 
 ::-webkit-scrollbar {

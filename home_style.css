@@ -24,7 +24,6 @@ body {
 }
 
 li,
-a,
 button {
   position: relative;
   font-family: "audiowide";
@@ -32,6 +31,10 @@ button {
   font-size: 21px;
   color: white;
   text-decoration: none;
+}
+
+header a {
+  color: white;
 }
 
 header {
@@ -109,7 +112,7 @@ li:nth-child(1) {
   align-items: top;
 }
 
-button {
+header button {
   padding: 15px 20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -154,7 +157,9 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+  align-items: center;
+  justify-content: center;
 }
 
 .bpartsimg1 {
@@ -167,17 +172,21 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .imgtext img {
   opacity: 1;
   position: relative;
-
+  height: 100%;
+  width: 100%;
   transition: opacity 0.4s;
   transition: transform 0.4s;
-  margin-top: 6%;
-  margin-bottom: 8%;
+  margin-top: 10%;
+  margin-bottom: 10%;
   align-items: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .link_text {
@@ -199,17 +208,19 @@ button:hover {
   margin: auto;
   text-align: center;
   margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .imgtext img:hover {
   /*background: rgba(255, 100, 100, 1);*/
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 .infotext {
-  width: 70%;
+  width: 60%;
   height: auto;
   position: relative;
   font-size: 22px;
@@ -233,12 +244,12 @@ button:hover {
     font-weight: 400;
   }
   .head {
-    display: grid;
+    display: flex;
     flex-direction: column;
   }
-  .nav {
-    flex: auto;
-    flex-direction: column;
+  .nav_links {
+    display: flex;
+    justify-content: space-around;
   }
   .imgtext {
     margin-top: 100px;
@@ -246,6 +257,7 @@ button:hover {
   .para {
     font-size: 13px;
     position: relative;
+    width: 90%;
   }
   .nav_links li {
     position: relative;
@@ -263,6 +275,16 @@ button:hover {
     padding: 7px 10px;
     font-size: 15px;
     margin-top: 25px;
+  }
+
+  .infotext {
+    font-size: 12px;
+    width: 95%;
+  }
+
+  .allbuts {
+    display: flex;
+    justify-content: space-around;
   }
 }
 
