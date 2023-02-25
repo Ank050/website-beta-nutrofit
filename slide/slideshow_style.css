@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(0, 0, 0);
+  margin: 0px;
+  height: 100vh;
+  background: rgba();
+  display: grid;
+  place-items: center;
+  background-image: url("BG7.jpg");
+  background-repeat: no-repeat;
+}
+
+.card-groups,
+.card-group,
+.card {
+  aspect-ratio: 5 / 7;
+}
+
+.card-groups,
+.card-group,
+.big-card {
+  width: 50vmin;
+  height: 70vmin;
+}
+
+.card-group {
+  position: absolute;
+  transition: transform 400ms ease;
+}
+
+.card-group[data-status="unknown"] {
+  transform: scale(0);
+  transition: none;
+}
+
+.card-group[data-status="active"] {
+  transition-delay: 300ms;
+}
+
+.card-group[data-status="after"] {
+  transform: translateX(50%) scale(0);
+}
+
+.card-group[data-status="before"] {
+  transform: translateX(-50%) scale(0);
+}
+
+.card-group[data-status="becoming-active-from-after"] {
+  transform: translateX(50%) scale(0);
+  transition: none;
+}
+
+.card-group[data-status="becoming-active-from-before"] {
+  transform: translateX(-50%) scale(0);
+  transition: none;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.05);
+  position: absolute;
+  transition: transform 800ms cubic-bezier(0.05, 0.43, 0.25, 0.95);
+
+  background-position: center;
+  background-size: cover;
+}
+
+.big-card {
+  border-radius: 1vmin;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-group:hover > .card {
+  box-shadow: -2vmin 2vmin 3vmin rgba(0, 0, 0, 0.4);
+}
+
+.card-swiper-buttons {
+  margin-top: 2vmin;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+}
+
+.card-swiper-buttons > button {
+  font-size: 20px;
+  border: 0px solid rgb(200, 200, 200);
+  border-radius: 100%;
+  color: white;
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.love-button {
+  color: white;
+  border-color: white;
+}

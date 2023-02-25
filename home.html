@@ -71,26 +71,26 @@
        <div class="bpartsimg1">
                     <div class="imgtext">
                         <p class="textaboveimg">EXERCISE</p>
-                        <a href="exercise_home.html"><img src="exerciseimg1.png"></a>
+                        <a href="exercise_home.html"><img src="neweximg.png"></a>
                         <p class="infotext">
-                            This provides information and guidance on specific exercises 
+                            This provides information and guidance on specific <span class="redtext">exercises</span>
                             targeting different body parts. It includes illustrations, photos and step-by-step instructions
-                            on proper form and technique, along with tips on avoiding injuries and incorporating exercises
+                            on proper form and technique, along with tips on avoiding injuries and incorporating <span class="redtext">exercises</span>
                             into a workout routine. The site may also offer advice on warm-up and cool-down routines and 
                             suggest proper equipment. The goal is to assist individuals in performing exercises correctly
-                            and efficiently for improved physical fitness and health.
+                            and efficiently for improved physical <span class="redtext">fitness</span> and <span class="redtext">health</span>.
                         </p>
                     </div>
                     <div class="imgtext">
                         <p class="textaboveimg">NUTRITION</p>
                         <a href="nutrition_home.html"><img src="nutritionimg.png"></a>
                         <p class="infotext">
-                            This provides information and tips on healthy eating habits, 
+                            This provides information and tips on <span class="redtext">healthy</span> eating habits, 
                             including key principles of a balanced diet, food groups, portion control, 
                             and hydration. The page offers guidance on making healthier food choices, 
                             such as reducing sugar and salt intake and incorporating more plant-based 
-                            foods. It also addresses common nutrition challenges and provides solutions. 
-                            The goal is to assist individuals in improving their overall health and 
+                            foods. It also addresses common <span class="redtext">nutrition</span> challenges and provides solutions. 
+                            The goal is to assist individuals in improving their overall <span class="redtext">health</span> and 
                             well-being through healthier eating habits.
                         </p>
                     </div>
@@ -98,23 +98,7 @@
         <br>
         <br>
         <br>
-        <script type="text/javascript">
-        const buttons = document.querySelectorAll('a')
-        buttons.forEach(btn => {
-            btn.addEventListener('click', function (e) {
-                let x = e.clientX - e.target.offsetLeft;
-                let y = e.clientY - e.target.offsetTop;
-                let ripples = document.createElement('span');
-                ripples.style.left = x + 'px';
-                ripples.style.top = y + 'px';
-                this.appendChild(ripples);
-
-                setTimeout(() => {
-                    ripple.remove();
-                }, 1000);
-            })
-        });
-    </script>
-</body>
+       
+    </body>
 
 </html>

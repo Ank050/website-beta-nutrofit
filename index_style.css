@@ -128,3 +128,9 @@ body {
     text-align: center;
   }
 }
+
+.redtext {
+  color: rgb(255, 100, 100);
+  font-size: 27px;
+  font-weight: 400;
+}
