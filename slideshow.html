@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="slideshow_style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@300&family=Roboto+Mono:wght@100;400&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@300&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@300&family=Roboto+Mono:wght@300;400&display=swap"
+        rel="stylesheet">
+    <script src="slideshow.js"></script>
+</head>
+
+<body>
+    <div class="card-swiper">
+        <img class="bg" src="BG7.jpg">
+            <header class="head">
+            <div class="logotext">
+                <img class="logo" src="logo_i.png" alt="logo">
+                <div class="nf">
+                    <h1>
+                        NutroFit
+                    </h1>
+                </div>
+            </div>
+            <div class="allbuts">
+                <nav>
+                    <ul class="nav_links">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="exercise_home.html">Exercises</a></li>
+                        <li><a href="nutrition_home.html">Nutrition</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="content">
+            <div class="text">
+                <h1>
+                    NUTRITION
+                </h1>
+            </div>
+        </div>
+        <div class="card-groups">
+            <div class="card-group" data-index="0" data-status="active">
+
+                <div class="big-card card">
+                    <img src="cardio.png">
+                </div>
+
+
+            </div>
+            <div class="card-group" data-index="1" data-status="unknown">
+
+                <div class="big-card card">
+                    <img src="fitness.png">
+                </div>
+
+
+            </div>
+            <div class="card-group" data-index="2" data-status="unknown">
+
+                <div class="big-card card">
+                    <img src="MUSCLE GAIN.png">
+                </div>
+
+
+            </div>
+            <div class="card-group" data-index="3" data-status="unknown">
+
+                <div class="big-card card">
+                    <img src="Weight Loss.png">
+                </div>
+
+
+            </div>
+        </div>
+        <div class="card-swiper-buttons">
+            <button id="hate-button" onclick="handleHateClick()">
+                <img src="left-arrow.png">
+            </button>
+            <button id="love-button" onclick="handleLoveClick()">
+                <img src="right-arrow.png">
+            </button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</body>
+
+</html>
