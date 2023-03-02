@@ -110,6 +110,10 @@ header {
   text-decoration: none;
 }
 
+li:nth-child(3) {
+  border-bottom: 3px rgb(255, 100, 100) solid;
+}
+
 .text {
   align-items: center;
   text-align: center;
@@ -123,8 +127,8 @@ header {
   color: white;
   margin-top: 30px;
   letter-spacing: 0.5rem;
-  color: rgb(255, 100, 100);
   margin-bottom: 60px;
+  z-index: 1000;
 }
 
 .text p {
