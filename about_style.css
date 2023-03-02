@@ -105,21 +105,46 @@ li:nth-child(4) {
 .about-section {
   margin: 100px;
   position: relative;
-  background: url() no-repeat left;
-  background-size: 55%;
   background-color: rgba(255, 255, 255, 0.5);
   overflow: hidden;
   padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .inner-container {
   box-shadow: 10px 10px 10px 10px rgb(150, 150, 150);
-  margin: auto;
-  width: 45%;
+  width: 60%;
   float: right;
   background-color: rgba(255, 255, 255, 01);
   padding: 130px;
   transition: transform 1s;
+  position: relative;
+  position: right;
+}
+
+.devimg {
+  width: 40%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.devimg img {
+  height: 45%;
+  width: 45%;
+  border: 2px black solid;
+  border-radius: 10%;
+}
+
+.devimg img:nth-child(2) {
+  margin-left: 200px;
+}
+
+.devimg img:nth-child(1) {
+  margin-right: 200px;
 }
 
 .inner-container h1 {
