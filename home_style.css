@@ -129,9 +129,9 @@ button:hover {
   background-color: rgb(255, 100, 100);
   outline-color: black;
   color: black;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .para {
@@ -334,11 +334,77 @@ button:hover {
 
 .bmimain {
   position: relative;
-  height: 600px;
+  height: 700px;
   width: 100%;
-  background-color: black;
   margin-top: 100px;
   margin-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bmiimg {
+  position: relative;
+  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.56) 0px 19px 38px,
+    rgba(0, 0, 0, 0.3) 0px 15px 12px;
+}
+
+.calci {
+  height: 100%;
+  position: relative;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bmiheading {
+  font-size: 50px;
+  font-weight: 400;
+  color: rgb(255, 100, 100);
+  position: relative;
+  font-family: "audiowide";
+}
+
+.bmitext {
+  margin: 30px;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  position: relative;
+  font-family: "Roboto mono";
+}
+
+.bmiinput {
+  background-color: transparent;
+  color: white;
+  border: 0px solid white;
+  border-bottom: solid 1px white;
+  font-family: "Roboto mono";
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 5px;
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+.bmibut {
+  margin: 30px;
+  margin-bottom: 15px;
+  height: 75px;
+  width: 200px;
+  background-color: rgb(255, 100, 100);
+  color: black;
+  border: 2px black solid;
+  border-radius: 10px;
+  transition: transform 0.25s;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
 }
 
 @media screen and (max-width: 1100px) {
@@ -429,6 +495,20 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .bmimain {
+    flex-direction: column;
+  }
+  .calci {
+    width: 90%;
+    margin: 30px;
+  }
+  .bmiimg {
+    height: 50%;
+    width: 50%;
+  }
+  .calci p {
+    font-size: 20px;
   }
 }
 

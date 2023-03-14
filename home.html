@@ -78,7 +78,7 @@
                 <p class="textaboveimg">EXERCISE</p>
                 <a href="exercise_home.html"><img src="neweximg.png" class="imggg"></a>
                 <p class="infotext">
-                    This provides information and guidance on specific <span class="redtext">exercises</span>
+                    <span class="redtext">NutroFit</span> provides information and guidance on specific <span class="redtext">exercises</span>
                     targeting different body parts. It includes illustrations, photos and step-by-step instructions
                     on proper form and technique, along with tips on avoiding injuries and incorporating <span
                         class="redtext">exercises</span>
@@ -92,7 +92,7 @@
                 <p class="textaboveimg">NUTRITION</p>
                 <a href="nutrition_home.html"><img src="nutritionimg.png" class="imggg"></a>
                 <p class="infotext">
-                    This provides information and tips on <span class="redtext">healthy</span> eating habits,
+                    <span class="redtext">NutroFit</span> provides information and tips on <span class="redtext">healthy</span> eating habits,
                     including key principles of a balanced diet, food groups, portion control,
                     and hydration. The page offers guidance on making healthier food choices,
                     such as reducing sugar and salt intake and incorporating more plant-based
@@ -104,8 +104,18 @@
             </div>
         </div>
         <div class="bmimain">
-            
+            <img src="bmi.png" class="bmiimg">
+             <div class="calci">
+                 <p class="bmiheading">CALCULATOR</p>
+                 <p class="bmitext">Height(in cms)</p>
+                 <input type="text" id="height" class="bmiinput">
+                 <p class="bmitext">Weight(in kgs)</p>
+                 <input type="text" id="weight" class="bmiinput">
+                 <button id="bmibut" onclick="bmi()" class="bmibut">Calculate</button>
+                 <p class="bmitext" id="result"></p>
+            </div>
         </div>
+       
         <br>
         <br>
         <br>
@@ -134,6 +144,15 @@
             </div>
         </div>
         <script src="https://kit.fontawesome.com/23925c9e8e.js" crossorigin="anonymous"></script>
+        <script>
+            function bmi() {
+                var h = document.getElementById('height').value;
+                var w = document.getElementById('weight').value;
+                var bmi = w/(h/100 * h/100);
+                var total = bmi.toFixed(2);
+                document.getElementById('result').innerHTML = "Your BMI : " + total
+            }
+        </script>
 </body>
 
 </html>
