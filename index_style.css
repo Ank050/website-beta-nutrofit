@@ -44,7 +44,7 @@ body {
 }
 
 .img_text {
-  margin-top: 13%;
+  margin-top: 9%;
   height: auto;
   width: 100%;
   display: flex;
@@ -67,7 +67,6 @@ body {
   font-size: 70px;
   color: rgb(255, 100, 100);
   padding: 10px;
-  border-radius: 10px;
 }
 
 .fa-solid:nth-child(1) {
@@ -102,73 +101,79 @@ body {
   position: absolute;
   animation: float8 30s infinite linear;
 }
+.fa-solid:nth-child(9) {
+  position: absolute;
+  font-size: 200px;
+  background-color: transparent;
+  border: 0px;
+}
 
 @keyframes float1 {
   from {
-    transform: rotate(0deg) translatex(200px) translatey(0px) rotate(0deg);
+    transform: rotate(0deg) translatex(250px) translatey(0px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translatex(200px) translatey(0px) rotate(-360deg);
+    transform: rotate(360deg) translatex(250px) translatey(0px) rotate(-360deg);
   }
 }
 @keyframes float2 {
   from {
-    transform: rotate(0deg) translatex(0px) translatey(200px) rotate(0deg);
+    transform: rotate(0deg) translatex(0px) translatey(250px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translatex(0px) translatey(200px) rotate(-360deg);
+    transform: rotate(360deg) translatex(0px) translatey(250px) rotate(-360deg);
   }
 }
 @keyframes float3 {
   from {
-    transform: rotate(0deg) translatex(-200px) translatey(0px) rotate(0deg);
+    transform: rotate(0deg) translatex(-250px) translatey(0px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translatex(-200px) translatey(0px) rotate(-360deg);
+    transform: rotate(360deg) translatex(-250px) translatey(0px) rotate(-360deg);
   }
 }
 @keyframes float4 {
   from {
-    transform: rotate(0deg) translatex(141px) translatey(141px) rotate(0deg);
+    transform: rotate(0deg) translatex(176px) translatey(176px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translatex(141px) translatey(141px)
+    transform: rotate(360deg) translatex(176px) translatey(176px)
       rotate(-360deg);
   }
 }
 @keyframes float5 {
   from {
-    transform: rotate(0deg) translatex(141px) translatey(-141px) rotate(0deg);
+    transform: rotate(0deg) translatex(176px) translatey(-176px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translatex(141px) translatey(-141px)
+    transform: rotate(360deg) translatex(176px) translatey(-176px)
       rotate(-360deg);
   }
 }
 @keyframes float6 {
   from {
-    transform: rotate(0deg) translatex(-141px) translatey(-141px) rotate(0deg);
+    transform: rotate(0deg) translatex(-176px) translatey(-176px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translatex(-141px) translatey(-141px)
+    transform: rotate(360deg) translatex(-176px) translatey(-176px)
       rotate(-360deg);
   }
 }
 @keyframes float7 {
   from {
-    transform: rotate(0deg) translatex(-141px) translatey(141px) rotate(0deg);
+    transform: rotate(0deg) translatex(-176px) translatey(176px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translatex(-141px) translatey(141px)
+    transform: rotate(360deg) translatex(-176px) translatey(176px)
       rotate(-360deg);
   }
 }
 @keyframes float8 {
   from {
-    transform: rotate(0deg) translatex(0px) translatey(-200px) rotate(0deg);
+    transform: rotate(0deg) translatex(0px) translatey(-250px) rotate(0deg);
   }
   to {
-    transform: rotate(360deg) translatex(0px) translatey(-200px) rotate(-360deg);
+    transform: rotate(360deg) translatex(0px) translatey(-250px) rotate(-360deg);
   }
 }
 
@@ -242,6 +247,7 @@ body {
 */
 .text {
   margin: auto;
+  margin-top: 3%;
   position: relative;
   text-align: center;
   align-items: center;
@@ -308,6 +314,10 @@ body {
     margin-top: 50px;
     align-items: center;
     text-align: center;
+  }
+  .images {
+    opacity: 0.5;
+    position: absolute;
   }
 }
 
