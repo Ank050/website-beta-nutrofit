@@ -288,7 +288,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shine 2s linear infinite;
+  animation: shine 7s linear infinite;
 }
 @keyframes shine {
   to {
