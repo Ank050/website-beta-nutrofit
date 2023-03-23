@@ -227,7 +227,7 @@ img {
   place-items: center;
   cursor: pointer;
   transition: transform 0.3s;
-  margin: 100px;
+  /* margin: 100px; */
   margin-top: 40px;
   z-index: 9;
   pointer-events: visible;
@@ -238,4 +238,45 @@ img {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.info {
+  background-color: transparent;
+  color: white;
+  width: 200px;
+  height: 60px;
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
+  border-color: white;
+}
+
+.mydiv {
+  font-size: large;
+  color: red;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  position: relative;
+  z-index: 10000;
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 100, 100, 1);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: gray;
 }

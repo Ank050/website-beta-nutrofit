@@ -9,18 +9,10 @@
     <link rel="stylesheet" href="dietplan_style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@300&family=Roboto+Mono:wght@100;400&display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@300&family=Roboto+Mono&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Source+Code+Pro:wght@600&display=swap"
-        rel="stylesheet">   
-    <link
-        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@300&family=Roboto+Mono:wght@300;400&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@300&family=Roboto+Mono:wght@100;400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@300&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:wght@300&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
     <script src="dietplan.js"></script>
 </head>
 
@@ -80,7 +72,6 @@
                     <img src="weight_gain.png">
                 </div>
 
-
             </div>
         </div>
         <div class="card-swiper-buttons">
@@ -91,12 +82,31 @@
                 <img src="right-arrow.png">
             </button>
         </div>
+        <button id="test" class="info" onclick="myfunction()">Show More Information</button>
+        <div id="mydiv" class="mydiv">
+                <p>Lorem Ipsum is simply dummy text...</p>
+        </div>
     </div>
     <br>
     <br>
     <br>
     <br>
 
+    <script>
+  window.onload = function() { // add event listener to set initial display property to "none"
+    var x = document.getElementById("mydiv");
+    x.style.display = "none";
+  }
+  
+  function myfunction() {
+    var x = document.getElementById("mydiv");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+</script>
 </body>
 
 </html>

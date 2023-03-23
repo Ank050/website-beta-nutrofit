@@ -99,3 +99,22 @@ body {
     height: 200px;
   }
 }
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 100, 100, 1);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: gray;
+}
