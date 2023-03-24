@@ -19,7 +19,7 @@ body {
   width: 100%;
   height: 100%;
   position: fixed;
-  opacity: 0.5;
+  opacity: 0.35;
   pointer-events: none;
 }
 
@@ -120,7 +120,7 @@ li:nth-child(2) {
   font-size: 80px;
   font-weight: 400;
   font-family: "audiowide";
-  color: white;
+  color: rgb(255, 100, 100);
   text-align: center;
 }
 
@@ -153,8 +153,6 @@ li:nth-child(2) {
 }
 
 .bpartsimg1 img {
-  border: 3px solid rgb(255, 100, 100);
-  box-shadow: 5px white;
   border-radius: 4%;
   opacity: 1;
   position: relative;
@@ -164,29 +162,26 @@ li:nth-child(2) {
   margin: auto;
   margin-top: 0px;
   filter: contrast(1);
-  transition: opacity 0.4s;
-  transition: transform 250ms;
+  transition: transform 0.4s;
 }
 
 .bpartsimg1 img:hover {
   transform: translateY(-17px);
+  border: 2px solid rgb(255, 100, 100);
+  box-shadow: rgba(255, 100, 100, 0.6) 0px 13px 27px -5px,
+    rgba(255, 100, 100, 0.6) 0px 8px 16px -8px;
 }
 
 .bpartsimg2 {
-  animation: fadeInAnimation ease 3s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
   width: 100%;
   height: auto;
   display: flex;
-  position: relative;
+  position: reative;
   margin-top: 100px;
   justify-content: space-around;
 }
 
 .bpartsimg2 img {
-  border: 3px solid rgb(255, 100, 100);
-  box-shadow: 5px white;
   border-radius: 4%;
   opacity: 1;
   position: relative;
@@ -194,19 +189,19 @@ li:nth-child(2) {
   height: 300px;
   width: 340px;
   margin: auto;
-
-  filter: contrast(1);
-  transition: opacity 0.4s;
-  transition: transform 250ms;
+  transition: transform 0.4s;
 }
 
-.bpartsimg2 img:hover {
-  transform: translateY(-17px);
+.bpartsimg2 inmg:hover {
+  transform: translateY(7-1.p);
+  border: 2px solid rgb(255, 100, 100);
+  box-shadow: rgba(255, 100, 100, 0.6) 0px 13px 27px -5px,
+    rgba(255, 100, 100, 0.6) 0px 8px 16px -8px;
 }
 
-.link_text {
+.link_te2x {
   margin: auto;
-  display: flex;
+  display:flex;
   position: relative;
   width: 100%;
   height: auto;
@@ -219,7 +214,7 @@ li:nth-child(2) {
   font-family: "audiowide";
   font-size: 35px;
   font-weight: 400;
-  color: white;
+  color: rgb(255, 100, 100);
   margin: auto;
   text-align: center;
   margin-bottom: 10px;
@@ -311,7 +306,147 @@ li:nth-child(2) {
   color: rgb(255, 100, 100);
 }
 
-@media screen and (max-width: 1100px) {
+.slide {
+  position: relative;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.card-groups,
+.card-group,
+.card {
+  aspect-ratio: 5 / 7;
+}
+
+.card-swiper {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-groups,
+.card-group,
+.big-card {
+  width: 60vmin;
+  height: 83vmin;
+  margin-top: 20px;
+}
+
+.card-group {
+  position: absolute;
+  transition: transform 400ms ease;
+}
+
+.card-group[data-status="unknown"] {
+  transform: scale(0);
+  transition: none;
+}
+
+.card-group[data-status="active"] {
+  transition-delay: 300ms;
+}
+
+.card-group[data-status="after"] {
+  transform: translateX(50%) scale(0);
+}
+
+.card-group[data-status="before"] {
+  transform: translateX(-50%) scale(0);
+}
+
+.card-group[data-status="becoming-active-from-after"] {
+  transform: translateX(50%) scale(0);
+  transition: none;
+}
+
+.card-group[data-status="becoming-active-from-before"] {
+  transform: translateX(-50%) scale(0);
+  transition: none;
+}
+
+/*.card-swiper {
+  margin-top: 130px;
+}*/
+
+.card {
+  background-color: rgba(255, 255, 255, 0.05);
+  position: absolute;
+  transition: transform 800ms cubic-bezier(0.05, 0.43, 0.25, 0.95);
+  background-position: center;
+  background-size: cover;
+  transition: transform box-shadow 0.4s;
+  z-index: 10;
+}
+.card:hover {
+  /*background: rgba(255, 100, 100, 1);*/
+  -webkit-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+  box-shadow: -2vmin 2vmin 3vmin rgba(255, 255, 255, 0.4);
+}
+
+.big-card {
+  border-radius: 1vmin;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-swiper-buttons {
+  margin-top: 2vmin;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  transition: transform 0.7s;
+}
+
+.card-swiper-buttons > button {
+  font-size: 20px;
+  border: 0px solid rgb(200, 200, 200);
+  border-radius: 100%;
+  color: white;
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  place-items: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+  /* margin: 100px; */
+  z-index: 9;
+  pointer-events: visible;
+  outline: 0;
+  margin: 30px;
+  margin-top: 30px;
+}
+
+.card-swiper-buttons button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.plans {
+  font-size: 60px;
+  font-weight: 400;
+  font-family: "audiowide";
+  color: rgb(256, 100, 100);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+@media screen and (rgx-width: 1100px) {
   p {
     font-size: 70%;
   }
@@ -390,6 +525,19 @@ li:nth-child(2) {
   .textaboveimg {
     margin-top: 50px;
   }
+
+  .exhead h1 {   
+    margin-bottom: 100px;
+    font-size: 35px;
+  }
+
+  .slide {
+    margin-top: 50px;
+  }
+  .slide h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
 }
 
 ::-webkit-scrollbar {
@@ -410,4 +558,5 @@ body::-webkit-scrollbar-thumb {
 
 body::-webkit-scrollbar-thumb:hover {
   background: gray;
+}
 }

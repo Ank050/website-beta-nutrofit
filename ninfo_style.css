@@ -50,7 +50,8 @@ body {
   position: relative;
   color: white;
   letter-spacing: 0.3rem;
-  margin: 3%;
+  margin-top: 25px;
+  margin-bottom: 70px;
 }
 
 .block1 p {

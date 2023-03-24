@@ -45,14 +45,10 @@ body {
 }
 
 .text h1 {
-  font-family: "Amatic SC", cursive;
-  margin-top: 120px;
-  margin-left: 230px;
-  font-size: 75px;
+  font-family: "audiowide";
+  font-size: 50px;
   color: white;
   text-align: center;
-  letter-spacing: 0.5rem;
   color: white;
   position: absolute;
 }
-
