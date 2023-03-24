@@ -44,17 +44,18 @@ body {
 }
 
 .content h1 {
-  font-family: "Amatic SC", cursive;
+  font-family: "audiowide";
   text-align: center;
-  font-size: 40px;
+  font-size: 65px;
+  position: relative;
   color: white;
   letter-spacing: 0.3rem;
-  margin: 5%;
+  margin: 3%;
 }
 
 .block1 p {
-  font-family: "Amatic SC", cursive;
-  font-size: 30px;
+  font-family: "Roboto Mono";
+  font-size: 20px;
   color: white;
   text-align: left;
   margin-right: 20px;
