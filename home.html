@@ -103,6 +103,7 @@
                  <input type="text" id="weight" class="bmiinput">
                  <button id="bmibut" onclick="bmi()" class="bmibut">Calculate</button>
                  <p class="bmitext" id="result"></p>
+                 <p class="bmitext" id="result1"></p>
             </div>
         </div>
        
@@ -139,7 +140,21 @@
                 var w = document.getElementById('weight').value;
                 var bmi = w/(h/100 * h/100);
                 var total = bmi.toFixed(2);
+                var s=" ";
+                if(total<18.5)
+                {
+                    s = "UnderWeight";
+                }
+                else if(total>18.5 && total<25)
+                {
+                    s = "Normal Weight";
+                }
+                if(total>25)
+                {
+                    s = "OverWeight";
+                }
                 document.getElementById('result').innerHTML = "Your BMI : " + total
+                document.getElementById('result1').innerHTML = "Your are : " + s
             }
         </script>
 </body>
