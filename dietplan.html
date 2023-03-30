@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NutroFit | Diet Plans</title>
     <link rel="stylesheet" href="dietplan_style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -75,38 +75,34 @@
             </div>
         </div>
         <div class="card-swiper-buttons">
-            <button id="hate-button" onclick="handleHateClick()">
+            <button id="left-button" onclick="handleLeftClick()">
                 <img src="left-arrow.png">
             </button>
-            <button id="love-button" onclick="handleLoveClick()">
+            <button id="love-button" onclick="handleRightClick()">
                 <img src="right-arrow.png">
             </button>
         </div>
-        <button id="test" class="info" onclick="myfunction()">Show More Information</button>
-        <div id="mydiv" class="mydiv">
-                <p>Lorem Ipsum is simply dummy text...</p>
+        <button id="test" class="info" onclick="moreInfo()">Show More Information</button>
+        <div class="infobelow">
+            <div class="mydiv" data-index="0" data-status="unknown">
+                    <p>-------------------------------info about balanced-------------------------------</p>
+            </div>
+            <div class="mydiv" data-index="1" data-status="unknown">
+                    <p>-------------------------------info about weight loss-------------------------------</p>
+            </div>
+            <div class="mydiv" data-index="2" data-status="unknown">
+                    <p>-------------------------------info about muscle gain-------------------------------</p>
+            </div>
+            <div class="mydiv" data-index="3" data-status="unknown">
+                    <p>-------------------------------info about weight gain-------------------------------</p>
+            </div>
         </div>
     </div>
     <br>
     <br>
     <br>
     <br>
-
-    <script>
-  window.onload = function() { // add event listener to set initial display property to "none"
-    var x = document.getElementById("mydiv");
-    x.style.display = "none";
-  }
-  
-  function myfunction() {
-    var x = document.getElementById("mydiv");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-</script>
+    
 </body>
 
 </html>

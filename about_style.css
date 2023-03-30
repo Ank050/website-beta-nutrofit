@@ -133,18 +133,10 @@ li:nth-child(4) {
 }
 
 .devimg img {
-  height: 45%;
-  width: 45%;
+  height: 40%;
+  width: 40%;
   border: 2px black solid;
   border-radius: 10%;
-}
-
-.devimg img:nth-child(2) {
-  margin-left: 200px;
-}
-
-.devimg img:nth-child(1) {
-  margin-right: 200px;
 }
 
 .inner-container h1 {
@@ -223,6 +215,103 @@ li:nth-child(4) {
     font-size: 12px;
     width: 90%;
     margin-left: 10px;
+  }
+
+  p {
+    font-size: 70%;
+  }
+  .nav_links {
+    padding: 0px;
+  }
+  .introtext {
+    width: 95%;
+    margin-top: 50px;
+  }
+  .bpartsimg1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 30px;
+  }
+
+  .bpartsimg2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .exhead h1 {
+    font-size: 50px;
+  }
+
+  .head {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav {
+    flex: auto;
+    flex-direction: column;
+  }
+  .nav_links li {
+    position: relative;
+    padding: 10px;
+  }
+  .li,
+  a {
+    font-family: "audiowide";
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  .fab {
+    font-size: 10px;
+  }
+
+  .logolinks {
+    height: 25px;
+    width: 25px;
+  }
+
+  .add p {
+    font-size: 10px;
+  }
+
+  .logos {
+    flex-direction: column;
+  }
+
+  .redtext {
+    font-size: 13px;
+  }
+
+  .bggg {
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+  }
+  .textaboveimg {
+    margin-top: 50px;
+  }
+
+  .exhead h1 {
+    margin-bottom: 100px;
+    font-size: 35px;
+  }
+
+  .slide {
+    margin-top: 50px;
+  }
+  .slide h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .card-swiper-buttons > button {
+    height: 50px;
+    width: 50px;
   }
 }
 
